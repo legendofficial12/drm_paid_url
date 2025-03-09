@@ -17,13 +17,13 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "tg_bot")
+    API_ID = int(os.environ.get("27039000"))
+    API_HASH = os.environ.get("5397095439b5ae9d00634ed2e98ff3e0")
+    BOT_TOKEN = os.environ.get("8036891972:AAF_IctBoFsBsR9V6uhYcbtZpeik3QVKABE")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "Forward098Private_bot")
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    OWNER_ID = int(os.environ.get("OWNER_ID"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "0"))
+    OWNER_ID = int(os.environ.get("7312764081"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1002300843475"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
 
@@ -36,7 +36,7 @@ class Script(object):
     START_MESSAGE = (
         " {mention}\n\nSend any link or set of links in a txt file to download them."
     )
-    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬🇵ʀɪʏᴀ𝄟⃝🐬 – your go-to Telegram bot developer!
+    DEV_MESSAGE = """👋 Hey there, I'm 𝄟⃝🐬@RgTiger𝄟⃝🐬 – your go-to Telegram bot developer!
 
 🤖 Love having bots that do the heavy lifting for you? That's my jam! I'm all about crafting super cool and custom Telegram bots that make your life a breeze.
 
