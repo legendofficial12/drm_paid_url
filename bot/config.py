@@ -23,7 +23,7 @@ class Config(object):
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Forward098Private_bot")
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
     OWNER_ID = int(os.environ.get("7312764081"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1002300843475"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002300843475"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split()))
 
